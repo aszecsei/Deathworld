@@ -1,0 +1,310 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "welcome"
+	group: ""
+	icon: "createdeco:decal_skull"
+	id: "5750781F81854438"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			icon: "createdeco:decal_skull"
+			id: "5E8F604F0842D8B5"
+			rewards: [{
+				id: "1773B2E102EFDE39"
+				item: {
+					Count: 1
+					id: "eccentrictome:tome"
+					tag: {
+						"eccentrictome:mods": { }
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "Try Not To Die"
+			tasks: [{
+				id: "205ECECAA2384514"
+				type: "checkmark"
+			}]
+			title: "Welcome"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E8F604F0842D8B5"]
+			icon: "cold_sweat:thermometer"
+			id: "22D85200869DDC39"
+			rewards: [{
+				id: "3328D4D9CF3ABF95"
+				item: "cold_sweat:thermometer"
+				type: "item"
+			}]
+			subtitle: "Baby It's Cold Outside"
+			tasks: [{
+				id: "0BDF709170923528"
+				title: "Temperature"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5E8F604F0842D8B5"]
+			description: [
+				"Go hungry for too long, get caught in a spiderweb, watch a flesh-eating zombie slaughter your pet dog..."
+				""
+				"...all these things can really &4drive you insane&r."
+				""
+				"Still, there's nothing a little sunlight, a nice meal, or a pleasant tune on the jukebox can't fix, right?"
+			]
+			icon: "sculkhorde:chunk_o_brain"
+			id: "5639424A05C3E351"
+			rewards: [{
+				id: "059A0C38EDA88605"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "sanitydim:garland"
+					tag: {
+						Damage: 0
+						Insulation: [ ]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Lovecrafting? So Do I."
+			tasks: [{
+				id: "4C90724C30DD7A96"
+				title: "Sanity"
+				type: "checkmark"
+			}]
+			title: "Sanity"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E8F604F0842D8B5"]
+			description: [
+				"You're not alone."
+				""
+				"Enemies abound, stronger and more powerful than you are. Swords and arrows will only take you so far."
+				""
+				"You need &cfirepower&r."
+				""
+				"Unfortunately, ammunition is limited. You'll have to craft more if you hope to survive more than a day or two."
+			]
+			icon: "spore:living_core"
+			id: "72803EEEB961C5B3"
+			rewards: [
+				{
+					id: "71CB09A12CA30B9D"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 7
+							GunFireMode: "SEMI"
+							GunId: "tacz:deagle"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7C1AA1E4BA76471E"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:50ae"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Eyes In The Dark"
+			tasks: [{
+				id: "61894BDBB3838ADC"
+				title: "Enemies"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E8F604F0842D8B5"]
+			description: [
+				"Torches (and campfires) are no longer infinitely lit."
+				""
+				"They are crafted unlit, and must be lit with a &aMatchbox&r or a flint and steel."
+				""
+				"Additionally, they will burn out:"
+				""
+				"1. After 60 minutes of real time, or"
+				"2. When rained on."
+				""
+				"Permanently lit torches can be crafted with &6glowstone&r or through a few other recipes. A campfire can be made to burn indefinitely by using &cMagma Cream&r on it."
+			]
+			icon: "realistictorches:lit_torch"
+			id: "226FACB61B26B90C"
+			rewards: [{
+				id: "7B2A4E7C2A7343F6"
+				item: {
+					Count: 1
+					id: "realistictorches:matchbox"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Let There Be Light (And Dark)"
+			tasks: [{
+				id: "5119370A1455B3CB"
+				title: "Torch Lighting"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5E8F604F0842D8B5"]
+			description: [
+				"Thanks to the power of &3Thirst Was Taken&r, you have to make sure to drink plenty of water (or eat foods that hydrate you)."
+				""
+				"Watch out, though - drinking &cstagnant water&r is bad for your health. Try to purify any dirty water you come across."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:water"
+				}
+			}
+			id: "52DDEA5226C37CD9"
+			rewards: [{
+				id: "3D6FE46ECE1A31DA"
+				item: "thirst:terracotta_bowl"
+				type: "item"
+			}]
+			subtitle: "Water you doing?"
+			tasks: [{
+				id: "1C2DE971EC415D01"
+				title: "Thirst"
+				type: "checkmark"
+			}]
+			title: "Thirst"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5E8F604F0842D8B5"]
+			description: [
+				"The howls of monsters keep you up at night."
+				""
+				"Literally. You can't sleep thanks to your &4insomnia&r. But there's probably a way to become sleepy enough..."
+			]
+			icon: "minecraft:red_bed"
+			id: "62DC2CC87424C872"
+			rewards: [{
+				id: "414B37FDCA8F99FB"
+				item: "comforts:sleeping_bag_white"
+				type: "item"
+			}]
+			subtitle: "Insomniac Games"
+			tasks: [{
+				id: "1619C6F435DFA9C3"
+				title: "Sleep"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5E8F604F0842D8B5"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						maps: [I; ]
+					}
+				}
+				id: "map_atlases:atlas"
+			}
+			id: "2FC4EB329F056558"
+			rewards: [{
+				id: "49CBC42CF0FA1659"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							maps: [I; ]
+						}
+					}
+					id: "map_atlases:atlas"
+				}
+				type: "item"
+			}]
+			subtitle: "Keep An Eye Out"
+			tasks: [{
+				id: "0B898BE7CDDF427D"
+				title: "Maps"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E8F604F0842D8B5"]
+			description: [
+				"The respawn system has been significantly overhauled, thanks to &9Respawn Obelisks&r."
+				""
+				"Beds no longer set your spawn point. Instead, you can find obelisks around the world; simply click them to set your spawn. After dying, when you respawn at an obelisk, it will lose some charge."
+				"Keep them charged with ender pearls and eyes of ender. If you respawn at an obelisk without any charge, you will be &4cursed&r."
+				""
+				"Watch out when placing these - breaking them will drop a Dormant Obelisk, which must be crafted back into a normal obelisk."
+			]
+			icon: "respawnobelisks:respawn_obelisk"
+			id: "3892B645C13BDC35"
+			rewards: [
+				{
+					id: "1D5EA5193A9447F0"
+					item: "respawnobelisks:respawn_obelisk"
+					type: "item"
+				}
+				{
+					id: "2797CE1CF7334923"
+					item: {
+						Count: 1
+						id: "respawnobelisks:obelisk_core"
+						tag: {
+							RespawnObeliskData: {
+								Charge: 100.0d
+								MaxCharge: 100.0d
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Return By Death"
+			tasks: [{
+				id: "22F9D911588742F1"
+				title: "Respawn Obelisks"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+	title: "Welcome"
+}

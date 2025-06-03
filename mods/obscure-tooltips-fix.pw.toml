@@ -1,0 +1,13 @@
+name = "Obscure Tooltips Fix"
+filename = "obscure_tooltips_fix-1.20.1-1.2.0-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "589b87067559396599dd409c3ddf4c2b2ab94751"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6284116
+project-id = 1103943

@@ -1,0 +1,13 @@
+name = "Gendustry: Community Edition"
+filename = "gendustry-1.20.1-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c82a32511e1e146ad34382cc856b6832f6a13928"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6317004
+project-id = 1179084

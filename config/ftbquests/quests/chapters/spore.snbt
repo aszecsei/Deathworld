@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "spore"
+	group: "3573BB61342CD216"
+	icon: "spore:living_core"
+	id: "3E8CC51AB827C779"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		icon: "spore:mutated_fiber"
+		id: "2FB25BEDF47FA6F5"
+		invisible: true
+		shape: "hexagon"
+		size: 2.0d
+		tasks: [{
+			advancement: "spore:spore"
+			criterion: ""
+			id: "28E755B545D2CF2E"
+			type: "advancement"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Spore"
+}

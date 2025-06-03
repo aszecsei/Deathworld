@@ -1,0 +1,25 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_flesh_that_hates"
+	group: "3573BB61342CD216"
+	icon: "the_flesh_that_hates:damned_flesh_eye"
+	id: "51F34E8E89BA26AE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "63D0A38F2704DF90"
+		invisible: true
+		shape: "hexagon"
+		size: 2.0d
+		tasks: [{
+			advancement: "the_flesh_that_hates:the_flesh_that_hates"
+			criterion: ""
+			id: "21FDF3AFD42E1595"
+			type: "advancement"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "The Flesh That Hates"
+}

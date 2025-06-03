@@ -1,0 +1,54 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "into_hell"
+	group: ""
+	icon: "cataclysm:altar_of_fire"
+	id: "0CB2592590708C7B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["08C914C742645A70"]
+			id: "38F8E4EA40B2FC51"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "1973209B527C0BFE"
+				item: {
+					Count: 1
+					id: "cold_sweat:soulspring_lamp"
+					tag: {
+						Fuel: 64.0d
+						Lit: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "08C914C742645A70"
+			tasks: [{
+				id: "7D4BFAB72AC870B6"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38F8E4EA40B2FC51"]
+			id: "1F81BE01D7304CD6"
+			tasks: [{
+				id: "36977A583ED366A3"
+				item: "cold_sweat:soul_sprout"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "Into Hell"
+}

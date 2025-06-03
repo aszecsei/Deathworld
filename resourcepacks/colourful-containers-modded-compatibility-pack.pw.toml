@@ -1,0 +1,13 @@
+name = "Colourful Containers: Modded GUI Compat"
+filename = "§5§lModded §f§lContainers§8.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6684402af569c5ad9d0ac642c1c9fd68d4d00398"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6548726
+project-id = 1128934

@@ -1,0 +1,123 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "biomancy"
+	group: "3118775EB0717DE2"
+	icon: {
+		Count: 1
+		id: "biomancy:despoil_sickle"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "39CF38AC9B23D21E"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "732D5690380D4CFA"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "13E64FC2D6326A75"
+				item: {
+					Count: 1
+					id: "biomancy:despoil_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["732D5690380D4CFA"]
+			id: "3516D4C660CE24D3"
+			tasks: [{
+				id: "2A31C6FDD772F7AB"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3516D4C660CE24D3"]
+			id: "6AD148463964E2C2"
+			tasks: [{
+				id: "20407E7FDAA5BECD"
+				item: "biomancy:living_flesh"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AD148463964E2C2"]
+			id: "198DD167C317C3CC"
+			tasks: [{
+				id: "349043C6826C0267"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6AD148463964E2C2"]
+			id: "78D194A41E88558E"
+			tasks: [{
+				id: "660E72F008877153"
+				item: "biomancy:decomposer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["198DD167C317C3CC"]
+			id: "2257D5AD6F20AC6C"
+			tasks: [{
+				id: "478E7FD6E04AD9FE"
+				item: "biomancy:digester"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["198DD167C317C3CC"]
+			id: "3E65760A1F7CFF6F"
+			tasks: [{
+				id: "327B95F027F9AD18"
+				item: {
+					Count: 1
+					id: "biomancy:extractor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"198DD167C317C3CC"
+				"78D194A41E88558E"
+			]
+			id: "40649FBE44D39AF7"
+			tasks: [{
+				id: "46AB14BB7C79A97C"
+				item: "biomancy:bio_lab"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+	]
+	title: "Biomancy"
+}

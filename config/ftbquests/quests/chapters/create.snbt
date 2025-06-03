@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "3118775EB0717DE2"
+	icon: "create:cogwheel"
+	id: "551293FC5DF58693"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "51A7A40E09686307"
+		shape: "hexagon"
+		size: 2.0d
+		tasks: [{
+			id: "0D70D8D65858DC0B"
+			item: "create:andesite_alloy"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Create"
+}

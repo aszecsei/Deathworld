@@ -1,0 +1,328 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "journey_to_the_end"
+	group: ""
+	icon: "minecraft:ender_eye"
+	id: "6F23857564C7ECF8"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4004D6BF56DF6E0C"
+			tasks: [{
+				id: "4FF299019E72CBD9"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "02BFD01A5E782CBC"
+			tasks: [{
+				id: "18C77C54955DBCC7"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "3E03B19EE7FD0058"
+			tasks: [{
+				id: "00E0AF8DC5277ECB"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "095E8998D3FE3DC5"
+			tasks: [{
+				id: "062AB2462E942949"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "39E5E0739ED4C27D"
+			tasks: [{
+				id: "020ACECDA342C045"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "3D2698AFEA1B09CA"
+			tasks: [{
+				id: "6F246CBC6797D9C2"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "115C6A27C97D56FA"
+			tasks: [{
+				id: "39652B7FDF8194FD"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "2EB1CA6B51984520"
+			tasks: [{
+				id: "0DE1929BA884F06A"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "763B2E8AC5F46B6D"
+			tasks: [{
+				id: "5EF33B65D026B92F"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "295020758B0DD290"
+			tasks: [{
+				id: "7139D67864A444C4"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			id: "41F26761898B9769"
+			tasks: [{
+				id: "7A628C0CE0E19960"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "0459AB64ACB3E6BE"
+			tasks: [{
+				id: "62A61AF819D3FD4B"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "16C4BE37004E3AE6"
+			tasks: [{
+				id: "3DC9E0B5355381D6"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "0591CFE818B4224B"
+			tasks: [{
+				id: "416A8E9FC012CEE3"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "4213A1E0B76DFDC9"
+			tasks: [{
+				id: "72CBE9A59F6CD898"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "3E0D3276A453601C"
+			tasks: [{
+				id: "7470EAD42F0E73FE"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"02BFD01A5E782CBC"
+				"2EB1CA6B51984520"
+				"0591CFE818B4224B"
+				"4004D6BF56DF6E0C"
+				"763B2E8AC5F46B6D"
+				"0459AB64ACB3E6BE"
+				"41F26761898B9769"
+				"3E0D3276A453601C"
+				"4213A1E0B76DFDC9"
+				"295020758B0DD290"
+				"3D2698AFEA1B09CA"
+				"3E03B19EE7FD0058"
+				"16C4BE37004E3AE6"
+				"115C6A27C97D56FA"
+				"095E8998D3FE3DC5"
+				"39E5E0739ED4C27D"
+			]
+			hide_dependency_lines: true
+			id: "451533303F8A9AFF"
+			min_required_dependencies: 12
+			size: 2.0d
+			tasks: [{
+				advancement: "minecraft:end/root"
+				criterion: ""
+				id: "18FD4790E3F1C148"
+				type: "advancement"
+			}]
+			title: "The End's Beginning"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["451533303F8A9AFF"]
+			id: "6B8AC6695FE3CBE1"
+			rewards: [{
+				auto: "enabled"
+				icon: "minecraft:red_bed"
+				id: "05358B3041DD110C"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "insomnia"
+				team_reward: false
+				title: "Sleep Well"
+				type: "gamestage"
+			}]
+			size: 3.0d
+			subtitle: "A Good Night's Sleep"
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "28431EA5270CFE30"
+				type: "advancement"
+			}]
+			title: "Defeat the Nightmare Dragon"
+			x: 0.0d
+			y: -6.0d
+		}
+	]
+	title: "Journey To The End"
+}

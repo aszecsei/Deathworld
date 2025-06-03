@@ -1,0 +1,156 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forestry"
+	group: "3118775EB0717DE2"
+	icon: "minecraft:oak_sapling"
+	id: "7C6432F1F131EB3C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0EC658A7588C9B47"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3F9D5990BE805C65"
+				item: "forestry:engine_clockwork"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B551934584002C3"]
+			id: "01C3397C3718FBEF"
+			tasks: [{
+				id: "6632BE0E19F6D45A"
+				item: "forestry:fabricator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0EC658A7588C9B47"]
+			id: "2B551934584002C3"
+			tasks: [{
+				id: "4E26FB9A5935E6CA"
+				item: "forestry:sturdy_machine"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B551934584002C3"]
+			id: "294846F9D0F90C4D"
+			tasks: [{
+				id: "2988796ECCCA50E9"
+				item: "forestry:carpenter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2B551934584002C3"]
+			id: "2B545C0AFB82B115"
+			tasks: [{
+				id: "4B1B713F7CE01799"
+				item: "forestry:squeezer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B551934584002C3"]
+			id: "0C547A9A857320BB"
+			tasks: [{
+				id: "0428045552479362"
+				item: "forestry:centrifuge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["50A73D9E8A45FF82"]
+			id: "63C834BDB2B86A90"
+			tasks: [{
+				id: "02C70C7783E07832"
+				item: "forestry:engine_peat"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["065AE3AF6E49A215"]
+			id: "00B06CB6E9A5364E"
+			tasks: [{
+				id: "6A46A14CAA8B5AED"
+				item: "forestry:engine_biogas"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B551934584002C3"]
+			id: "065AE3AF6E49A215"
+			tasks: [{
+				id: "70F5BA1D32B90F0F"
+				item: "forestry:fermenter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41E1266E2AEBC41B"]
+			id: "50A73D9E8A45FF82"
+			tasks: [{
+				id: "6F30D15646E427FD"
+				item: "forestry:peat"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6B4E1BFFA28639E2"]
+			id: "1B5C54435487733C"
+			tasks: [{
+				id: "581AAF3C61CC14ED"
+				item: "forestry:apiary"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["294846F9D0F90C4D"]
+			id: "6B4E1BFFA28639E2"
+			tasks: [{
+				id: "2DCCDA07C0ADA279"
+				item: "forestry:impregnated_casing"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			id: "41E1266E2AEBC41B"
+			tasks: [{
+				id: "1CD72E50131DFA74"
+				item: "forestry:bog_earth"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+	]
+	title: "Forestry"
+}

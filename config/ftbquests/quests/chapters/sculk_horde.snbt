@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sculk_horde"
+	group: "3573BB61342CD216"
+	icon: "sculkhorde:sculk_ancient_node"
+	id: "1F4BB41D7F53A6BE"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "2443F4F8B9F71D30"
+		invisible: true
+		shape: "hexagon"
+		size: 2.0d
+		tasks: [{
+			advancement: "sculkhorde:sculk_horde_start"
+			criterion: ""
+			id: "7DA74EAABEF0F0F3"
+			type: "advancement"
+		}]
+		title: "Unleash the Horde"
+		x: 0.0d
+		y: -0.5d
+	}]
+	title: "Sculk Horde"
+}

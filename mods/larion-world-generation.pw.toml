@@ -1,0 +1,13 @@
+name = "Larion World Generation"
+filename = "larion-fabric-1.20.4-4.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0b4e006901d60753eba0d01ea638fb3f293c2e48"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6315777
+project-id = 1150582

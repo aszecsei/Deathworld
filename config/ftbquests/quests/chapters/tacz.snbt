@@ -1,0 +1,122 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tacz"
+	group: "3118775EB0717DE2"
+	icon: {
+		Count: 1
+		id: "tacz:modern_kinetic_gun"
+		tag: {
+			GunCurrentAmmoCount: 9
+			GunFireMode: "SEMI"
+			GunId: "tacz:deagle_golden"
+			HasBulletInBarrel: 1b
+		}
+	}
+	id: "674352BB20A0FE4B"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "744F5CED5AC515FB"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "611982A2C4096A06"
+				item: "tacz:gun_smith_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7B08A20FA7CD3CF6"
+			shape: "rsquare"
+			tasks: [{
+				id: "181056A808001DEB"
+				item: {
+					Count: 1
+					id: "tacz:workbench_c"
+					tag: {
+						BlockId: "tacz:attachment_workbench"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "351844C5BFF79DF2"
+			shape: "rsquare"
+			tasks: [{
+				id: "628717CDAACEBBC2"
+				item: {
+					Count: 1
+					id: "tacz:workbench_a"
+					tag: {
+						BlockId: "tacz:ammo_workbench"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["351844C5BFF79DF2"]
+			id: "0B99B29B5D53E033"
+			shape: "square"
+			tasks: [{
+				id: "66093CEE65D10D1D"
+				item: {
+					Count: 1
+					id: "tacz:ammo_box"
+					tag: {
+						Level: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["351844C5BFF79DF2"]
+			id: "0B1AE1EB215914E3"
+			shape: "square"
+			tasks: [{
+				id: "5A54A1F6E4B95D1F"
+				item: {
+					Count: 1
+					id: "tacz:ammo_box"
+					tag: {
+						Level: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["351844C5BFF79DF2"]
+			id: "3C177DAFAD2A982C"
+			shape: "square"
+			tasks: [{
+				id: "2DC45E6342833B67"
+				item: {
+					Count: 1
+					id: "tacz:ammo_box"
+					tag: {
+						Level: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+	]
+	title: "TaC:Z"
+}

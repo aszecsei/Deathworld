@@ -1,0 +1,13 @@
+name = "Cataclysmic tunes"
+filename = "Cataclysmic_tunes_V6(finalsongfix).zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a9357c8478e45d0245ff7741369f560b3189a779"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5823443
+project-id = 989768

@@ -1,0 +1,28 @@
+{
+	"type": "sophisticatedbackpacks:backpack_upgrade",
+	"conditions": [
+	  {
+		"itemRegistryName": "sophisticatedbackpacks:diamond_backpack",
+		"type": "sophisticatedcore:item_enabled"
+	  }
+	],
+	"pattern": [
+	  "DAD",
+	  "ABA",
+	  "DAD"
+	],
+	"key": {
+	    "A": {
+		"item": "quark:ravager_hide"
+	  },
+		"D": {
+		"item": "minecraft:diamond_block"
+	  },
+	  "B": {
+		"item": "sophisticatedbackpacks:gold_backpack"
+	  }
+	},
+	"result": {
+	  "item": "sophisticatedbackpacks:diamond_backpack"
+	}
+  }

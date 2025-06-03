@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tinkers_construct"
+	group: "3118775EB0717DE2"
+	icon: "tconstruct:maille_cast"
+	id: "17B861D7DFE3014A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "4ABF64DBDD98C726"
+		shape: "hexagon"
+		size: 2.0d
+		tasks: [{
+			id: "6428F11701948E5C"
+			item: "tconstruct:pattern"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Tinker's Construct"
+}

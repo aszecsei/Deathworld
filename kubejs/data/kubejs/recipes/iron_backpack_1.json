@@ -1,0 +1,28 @@
+{
+	"type": "sophisticatedbackpacks:backpack_upgrade",
+	"conditions": [
+	  {
+		"itemRegistryName": "sophisticatedbackpacks:iron_backpack",
+		"type": "sophisticatedcore:item_enabled"
+	  }
+	],
+	"pattern": [
+	  "DAD",
+	  "ABA",
+	  "DAD"
+	],
+	"key": {
+	    "A": {
+		"tag": "forge:leather"
+	  },
+		"D": {
+		"tag": "forge:storage_blocks/iron"
+	  },
+	  "B": {
+		"item": "sophisticatedbackpacks:copper_backpack"
+	  }
+	},
+	"result": {
+	  "item": "sophisticatedbackpacks:iron_backpack"
+	}
+  }

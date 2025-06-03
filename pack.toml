@@ -1,0 +1,13 @@
+name = "Deathworld"
+author = "crow-maki"
+version = "0.1-beta"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "87f81c1af6f8dca9d6e2e3cc103aea931b08ca62ce581ad39917a043a8a2d2ca"
+
+[versions]
+forge = "47.4.1"
+minecraft = "1.20.1"

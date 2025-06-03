@@ -1,0 +1,13 @@
+name = "Unlit Campfire Icons"
+filename = "UnlitCampfireIcons_1.21.5.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5f95f6a46ddc1af06043132633623191704acdb9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6561032
+project-id = 422984
