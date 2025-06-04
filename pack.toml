@@ -1,12 +1,12 @@
 name = "Deathworld"
 author = "crow-maki"
-version = "0.1-beta"
+version = "0.1.1-beta"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "54bac0335317148c9c69a4cb953a93a120351b754b46434e2fb4f67317a943fb"
+hash = "1a2bddcb1c24894ca168a2bd19678145cb3780d2c9e9b5756cf48f31ecc5d21b"
 
 [versions]
 forge = "47.4.1"
